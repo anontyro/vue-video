@@ -8,6 +8,8 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import videojs from 'video.js';
+import 'video.js/dist/video-js.min.css';
+import 'videojs-youtube/dist/Youtube.min.js';
 
 @Component
 export default class VideoPlayer extends Vue {
